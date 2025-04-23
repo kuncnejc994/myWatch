@@ -55,3 +55,23 @@ footer {
 .add-to-cart:hover {
     background-color: #0056b3;
 }
+.add-to-cart {
+    background: linear-gradient(135deg, #1e88e5, #1565c0);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin-top: 15px;
+    letter-spacing: 0.5px;
+}
+
+.add-to-cart:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px rgba(21, 101, 192, 0.4);
+    background: linear-gradient(135deg, #1565c0, #0d47a1);
+}
